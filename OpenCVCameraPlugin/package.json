@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-opencv_camera_plugin",
+  "version": "1.0.0",
+  "description": "Plugin para Mobile First usando OpenCV",
+  "cordova": {
+    "id": "cordova-plugin-opencv_camera_plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Carlos Henrique Gava",
+  "license": "Particular"
+}
