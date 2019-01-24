@@ -31,6 +31,7 @@ public class OpenCVCameraPlugin extends CordovaPlugin {
     }
 
     static native void scan(String img_path); 
+    
     static {
         System.loadLibrary("opencv_core");
         System.loadLibrary("opencv_highgui");

@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "br.com.gservices.opencv_camera_app"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "br.com.gservices.opencv_camera_app"
     }
   },
   "dependent_plugins": {}
