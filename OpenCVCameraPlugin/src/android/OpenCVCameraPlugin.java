@@ -29,4 +29,14 @@ public class OpenCVCameraPlugin extends CordovaPlugin {
             callbackContext.error("Expected one non-empty string argument.");
         }
     }
+
+    static native void scan(String img_path); 
+    static {
+        System.loadLibrary("opencv_core");
+        System.loadLibrary("opencv_highgui");
+        System.loadLibrary("opencv_imgcodecs");
+        System.loadLibrary("opencv_imgproc");
+        System.loadLibrary("opencv_objdetect");
+        System.loadLibrary("scannerLite");
+    }
 }
